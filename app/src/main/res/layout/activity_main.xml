@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -27,6 +27,7 @@
 			android:layout_height="wrap_content"
 			android:layout_centerInParent="true"
 			android:layout_gravity="center"
+			android:layout_margin="10dp"
 			android:adjustViewBounds="true"
 			android:scaleType="fitCenter"
 			android:src="@drawable/ic_launcher" />
@@ -53,35 +54,39 @@
 		android:gravity="right"
 		android:orientation="horizontal">
 
-		<ImageButton
+		<Button
 			android:id="@+id/btn_showtieusu"
-			android:layout_width="80dp"
+			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:layout_gravity="center"
 			android:layout_marginLeft="10dp"
-			android:background="@color/transparent"
+
 			android:padding="8dp"
 			android:scaleType="fitCenter"
-			android:src="@drawable/ico_tieusu" />
+			android:text="Tiểu sử"
+			android:textColor="@color/colorPrimary" />
 
-		<ImageButton
+		<Button
 			android:id="@+id/btnhidend"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:layout_gravity="center"
 			android:layout_weight="1"
+
 			android:background="@color/transparent"
 			android:scaleType="fitCenter" />
 
-		<ImageButton
+		<Button
 			android:id="@+id/btn_refresh"
-			android:layout_width="80dp"
+			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:layout_gravity="center"
 			android:layout_marginRight="10dp"
-			android:background="@color/transparent"
 			android:scaleType="fitCenter"
-			android:src="@drawable/ico_choitiep" />
+
+			android:src="@drawable/ico_choitiep"
+			android:text="Chơi tiếp"
+			android:textColor="@color/colorPrimary" />
 	</LinearLayout>
 
 	<GridView
@@ -133,7 +138,7 @@
 			android:layout_marginLeft="5dp"
 			android:background="@color/transparent"
 			android:contentDescription="@string/start_new"
-			android:src="@drawable/ico_brush" />
+			android:src="@drawable/paint_50px" />
 
 		<ImageButton
 			android:id="@+id/btn_clean"
@@ -142,7 +147,7 @@
 			android:layout_margin="8dp"
 			android:background="@color/transparent"
 			android:contentDescription="@string/opacity"
-			android:src="@drawable/ico_eye" />
+			android:src="@drawable/broom_50px" />
 
 		<ImageButton
 			android:id="@+id/btn_help1"
@@ -151,7 +156,7 @@
 			android:layout_margin="8dp"
 			android:background="@color/transparent"
 			android:contentDescription="@string/erase"
-			android:src="@drawable/ico_buld" />
+			android:src="@drawable/greentech_50px" />
 
 
 		<ImageButton
@@ -161,7 +166,7 @@
 			android:layout_gravity="center"
 			android:background="@color/transparent"
 			android:contentDescription="@string/brush"
-			android:src="@drawable/ic_help_outline_black_48dp" />
+			android:src="@drawable/help" />
 
 		<ImageButton
 			android:id="@+id/btn_sound"
@@ -171,7 +176,7 @@
 			android:layout_marginLeft="10dp"
 			android:background="@color/transparent"
 			android:contentDescription="@string/brush"
-			android:src="@drawable/ico_sound2" />
+			android:src="@drawable/audio_50px" />
 
 	</LinearLayout>
 

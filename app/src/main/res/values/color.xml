@@ -20,7 +20,7 @@
     <color name="transparent2">#3ff9f6f6</color>
 
     <!-- Black -->
-    <color name="black">#ff000000</color>
+    <color name="black">#000000</color>
 	<color name="heart">#CC0099</color>
     
     <!-- White -->

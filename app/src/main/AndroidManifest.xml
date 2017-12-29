@@ -17,11 +17,7 @@
         <activity
             android:name=".SplashActivity"
             android:theme="@style/MyFullScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".TieusuActivity"
@@ -54,7 +50,11 @@
         <activity android:name=".MainUIActivity"
             android:theme="@style/NobarAppTheme"
             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>
