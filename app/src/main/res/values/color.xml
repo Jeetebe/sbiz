@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- A transparent black -->
+        
+    <!-- A transparent black -->
+    <color name="transparent_black">#aa000000</color>
+  <color name="transparent_whitelight">#aafffff9</color>
+  <color name="transparent_tim">#aace8cef</color>
+    <!-- selected tab text -->
+    <color name="selected_tabtext">#a6d1e8</color>
+    
+    <!-- non selected tab text -->
+    <color name="unselected_tabtext">#A9E2F3</color>
+
+    <!-- A semi-transparent dark Holo shade of blue -->
+    <color name="holo_blue_dark">#0099cc</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#3ff9f6f6</color>
+
+    <!-- Black -->
+    <color name="black">#ff000000</color>
+	<color name="heart">#CC0099</color>
+    
+    <!-- White -->
+    <color name="white">#ffffff</color>
+
+    <!-- like -->
+    <color name="like">#58FA58</color>
+    <!-- like -->
+    <color name="like2">#a9e2f3</color>
+ 
+    <color name="bg1">#bdbdbd</color>
+    <color name="green">#a5df00</color>
+    
+    <!-- Quick Queue line seperator -->
+    <color name="queue_callout_line">#99ffffff</color>
+
+    <color name="dark">#003399</color>
+    <color name="light">#660033</color>
+    <color name="lightblack">#f2f2f2</color>
+    
+    
+    
+     <color name="bar1">#536d89</color>
+    <color name="bar2">#293643</color>
+  <color name="xam">#424548</color>
+    
+    
+    
+    
+    
+</resources>

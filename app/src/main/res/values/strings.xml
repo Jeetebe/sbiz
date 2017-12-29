@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="opacity">Opacity</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+
+    <string name="app_name">Đoán tên Showbiz</string>
+    <string name="title_activity_ketqua">KetquaActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">Đoán tên Showbiz</string>
+    <string name="titlethongbao">Không có kết nối internet</string>
+    <string name="thongbao">Hiện chỉ hỗ trợ chơi online, để chơi offline xin chờ version sau</string>
+    <string name="yeucaucapnhat">Đã có phiên bản mới !</string>
+    <string name="capnhat">Cập nhật</string>
+    <string name="app_id">1071868502850884</string>
+    <string name="facebook_app_name">Đoán người nổi tiếng</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="chucmung">Chúc mừng bạn</string>
+    <string name="search_hint">Nhập tên nghệ sĩ</string>
+    <string name="khongtimthay">Không tìm thấy</string>
+    <string name="title_activity_topplayer">TopplayerActivity</string>
+
+
+    <string name="ad_unit_idsmall"> ca-app-pub-8623108209004118/8658724786</string>
+    <string name="ad_unit_id"> ca-app-pub-8623108209004118/9244151988</string>
+    <string name="title_activity_exit">ExitActivity</string>
+    <string name="item1">#F2F2F2</string>
+
+</resources>

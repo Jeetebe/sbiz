@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		ads:adSize="SMART_BANNER"
+		ads:adUnitId="ca-app-pub-8623108209004118/7004623180" />
+
+
+	<RelativeLayout
+		android:id="@+id/ruong"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_gravity="center"
+			android:adjustViewBounds="true"
+			android:scaleType="fitCenter"
+			android:src="@drawable/ic_launcher" />
+
+		<com.jtb4.doantenshowbiz.DrawingView
+			android:id="@+id/drawing"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp"
+			android:layout_marginTop="2dp"
+			android:background="@color/transparent"
+			android:visibility="gone" />
+
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:id="@+id/linearhiden"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+
+		android:background="@color/transparent_whitelight"
+		android:gravity="right"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:id="@+id/btn_showtieusu"
+			android:layout_width="80dp"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:layout_marginLeft="10dp"
+			android:background="@color/transparent"
+			android:padding="8dp"
+			android:scaleType="fitCenter"
+			android:src="@drawable/ico_tieusu" />
+
+		<ImageButton
+			android:id="@+id/btnhidend"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:background="@color/transparent"
+			android:scaleType="fitCenter" />
+
+		<ImageButton
+			android:id="@+id/btn_refresh"
+			android:layout_width="80dp"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:layout_marginRight="10dp"
+			android:background="@color/transparent"
+			android:scaleType="fitCenter"
+			android:src="@drawable/ico_choitiep" />
+	</LinearLayout>
+
+	<GridView
+		android:layout_weight="2"
+		android:id="@+id/gridView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="0dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@color/transparent"
+		android:columnWidth="50dp"
+		android:gravity="center"
+		android:numColumns="8"
+		android:stretchMode="columnWidth"></GridView>
+
+	<GridView
+		android:id="@+id/gridView2"
+		android:layout_weight="2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@color/transparent"
+		android:columnWidth="50dp"
+		android:gravity="center"
+		android:numColumns="8"
+		android:stretchMode="columnWidth">
+
+	</GridView>
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:background="@color/white"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:id="@+id/btn_bigger"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="5dp"
+			android:background="@color/transparent"
+			android:contentDescription="@string/start_new"
+			android:src="@drawable/ico_brush" />
+
+		<ImageButton
+			android:id="@+id/btn_clean"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_margin="8dp"
+			android:background="@color/transparent"
+			android:contentDescription="@string/opacity"
+			android:src="@drawable/ico_eye" />
+
+		<ImageButton
+			android:id="@+id/btn_help1"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_margin="8dp"
+			android:background="@color/transparent"
+			android:contentDescription="@string/erase"
+			android:src="@drawable/ico_buld" />
+
+
+		<ImageButton
+			android:id="@+id/btnhelpall"
+			android:layout_width="50dp"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center"
+			android:background="@color/transparent"
+			android:contentDescription="@string/brush"
+			android:src="@drawable/ic_help_outline_black_48dp" />
+
+		<ImageButton
+			android:id="@+id/btn_sound"
+			android:layout_width="50dp"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center"
+			android:layout_marginLeft="10dp"
+			android:background="@color/transparent"
+			android:contentDescription="@string/brush"
+			android:src="@drawable/ico_sound2" />
+
+	</LinearLayout>
+
+    <ProgressBar
+		android:id="@+id/customProgress"
+		style="@style/CustomProgressBar"
+		android:layout_width="match_parent"
+		android:layout_height="12dp"
+		android:minHeight="1dip"
+		android:minWidth="5dip"
+		android:progress="10" />
+
+
+</LinearLayout>
